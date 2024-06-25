@@ -93,7 +93,7 @@ public class IngredientListOverlay implements IIngredientListOverlay, IRecipeFoc
 
 	@Override
 	public boolean isListDisplayed() {
-		return worldConfig.isOverlayEnabled() && this.guiProperties != null && this.hasRoom;
+		return false;
 	}
 
 	private static ImmutableRect2i createDisplayArea(IGuiProperties guiProperties) {
